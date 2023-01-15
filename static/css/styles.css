@@ -6,18 +6,30 @@
   body {
     height: 100vh;
     background: #8ec1e3;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lora', serif;
     
   }
   /* Header */
   .header{
   text-align: center;
   display: flex;
-    justify-content: center;
+  justify-content: center;
   }
 
   .title{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .to-right{
+    margin-left:auto ;
+  }
+  .headingnavbar{
+    z-index: 1;
+    background-color: #0F4C75;
+  }
+  .heading-section{
+    z-index: -1;
+    text-align: center;
+    padding: 3%;
   }
   /* Social Links Animation */
 /* 
@@ -92,9 +104,21 @@
   } */
   /* menu */
   .food{
-    background-color: black;
-    width: 100%;
-    height: 100%;
+    margin: 15px;
+  }
+  .food-item{
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    border: 10px solid #000;
+  }
+  .foodlinks{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
   }
   /* Others */
   .social_links{
